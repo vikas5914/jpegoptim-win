@@ -19,11 +19,24 @@
             <p>smaller jpegs for everyone!</p>
         </header>
         <nav>
-            <a href="index.html">about</a> | <a href="binaries.html">binaries</a> | <a href="donate.html" class="current">donate</a>
+            <a href="index.html">about</a> | <a href="binaries.html">binaries</a> | <a href="build.html">build</a> | <a href="donate.html" class="current">donate</a>
         </nav>
         <article>
             <p>if you like this service, maybe consider a small donation? it helps feeding the hamsters that power my pc ;)</p>
-            <div class="pm-button"><a href="https://www.payumoney.com/paybypayumoney/#/E4573936BB8C0BE127F80890701930A9" target="_blank"><img src="https://www.payumoney.com//media/images/payby_payumoney/buttons/112.png" /></a></div>
+            <div class="pm-button">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="vikas@kapadiya.net">
+                <input type="hidden" name="lc" value="IN">
+                <input type="hidden" name="item_name" value="Buy me a beer">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+            </div>
         </article>
     </body>
 </html>

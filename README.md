@@ -6,4 +6,4 @@ Win32 port of jpegoptim, open source jpeg optimization/compression tool by Timo 
 
 Author: [Vikas Kapadiya](https://www.kapadiya.net/)
 
-PS: We also provide 64 bit binaries. 
+PS: We also provide 64 bit binaries. Thanks to [Michele Locati](https://github.com/mlocati) for the script
